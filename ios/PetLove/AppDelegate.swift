@@ -1,6 +1,7 @@
 import UIKit
 import React
 import React_RCTAppDelegate
+import GoogleMaps
 import ReactAppDependencyProvider
 
 @main
@@ -14,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
   ) -> Bool {
+    GMSServices.provideAPIKey("AIzaSyBE6zybfvgmgTd5kCnCh2t0G6cEi9pajlI")
     let delegate = ReactNativeDelegate()
     let factory = RCTReactNativeFactory(delegate: delegate)
     delegate.dependencyProvider = RCTAppDependencyProvider()

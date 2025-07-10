@@ -1,7 +1,9 @@
+import Navigation from "./src/navigation";
+
 const App = () => {
-
-  return;
-
+  return (
+    <Navigation />
+  )
 }
 
 export default App;

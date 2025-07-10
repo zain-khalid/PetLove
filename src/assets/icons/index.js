@@ -1,0 +1,8 @@
+export const ARROW_RIGHT_ICON = require("./arrow-right-icon.png")
+export const ARROW_LEFT_ICON = require("./arrow-left-icon.png")
+export const LOCATION_PIN_ICON = require("./location-pin-icon.png")
+export const HEART_ICON = require("./heart-icon.png")
+export const CAKE_ICON = require("./cake-icon.png")
+export const GENDERS_ICON = require("./genders-icon.png")
+export const BREED_ICON = require("./breed-icon.png")
+export const COLOR_ICON = require("./color-icon.png")
