@@ -71,7 +71,7 @@ const HomeScreen = () => {
     },[])
 
     return (
-        <ScrollView style={[styles.container, {paddingTop: top || MainTheme.constants.spacing}]} showsVerticalScrollIndicator={false}>
+        <ScrollView style={[styles.container, {paddingTop: top || MainTheme.constants.spacing}]} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: bottom + MainTheme.constants.spacing }}>
             <View style={styles.headerContainer}>
                 <Text style={styles.locationText}>Location: {userPosition?.latitude}, {userPosition?.longitude}</Text>
                 <Image source={PAW} style={styles.logo} />
@@ -99,7 +99,6 @@ const HomeScreen = () => {
                 keyExtractor={(item, index)=>index.toString()}
                 renderItem={(props) => <CardView {...props} handleNavigation={handleDetailNavigation} />}
             />
-            <VerticalSpacing height={bottom || MainTheme.constants.spacing} />
         </ScrollView>
     )
 }

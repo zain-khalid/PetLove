@@ -39,7 +39,7 @@ const MockPaymentScreen = ({ route }) => {
   };
 
   return (
-    <ScrollView style={[styles.container, { paddingTop: top, paddingBottom: bottom || MainTheme.constants.spacing }]} contentContainerStyle>
+    <ScrollView style={[styles.container, { paddingTop: top }]} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: bottom + MainTheme.constants.spacing }}>
       <View>
         <Image source={{ uri: item.image }} style={styles.image} />
         <TouchableOpacity onPress={goBack} style={styles.goBackContainer}>
