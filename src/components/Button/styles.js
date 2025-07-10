@@ -3,8 +3,8 @@ import MainTheme from "../../constants/MainTheme";
 
 const styles = StyleSheet.create({
     container:{
-        elevation: 15,
-        shadowRadius: 9.51,
+        elevation: 7,
+        shadowRadius: 5,
         shadowOpacity: 0.43,
         flexDirection: "row",
         justifyContent: "center",
