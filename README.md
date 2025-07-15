@@ -18,7 +18,7 @@ This app provides:
 Hi, I'm **Zain Khalid** – a Senior Mobile Developer with over 7 years of experience specializing in React Native, iOS/Android development, and building stunning cross-platform mobile apps.
 
 🌐 Portfolio: [https://zain-khalid.netlify.app/](https://zain-khalid.netlify.app/)  
-📧 Email: contact@zainkhalid.dev  
+📧 Email: zainkhalid000@gmail.com  
 📱 LinkedIn: [https://www.linkedin.com/in/zainkhalid147](https://https://www.linkedin.com/in/zainkhalid147)
 
 ---
